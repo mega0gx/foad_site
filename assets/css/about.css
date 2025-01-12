@@ -1,22 +1,45 @@
+/* Add this at the top of about.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* Our Mission */
 
 .our-mission {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 4rem 1rem 2rem;
+    background: linear-gradient(to bottom, #f9f9f9, transparent);
+}
+
+.our-mission .container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .our-mission h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #333;
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
 }
 
 .our-mission p {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
     color: #666;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Add the separator */
+.our-mission .container::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #ffd966;
+    margin: 2rem auto;
 }
 
 

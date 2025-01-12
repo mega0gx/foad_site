@@ -1,3 +1,60 @@
+/* Add these new styles at the top of your gallery.css */
+.products-header {
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+    background: linear-gradient(to bottom, #f9f9f9, transparent);
+}
+
+.products-header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    color: #8ab84d;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.products-header h2 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 1.5rem 0;
+}
+
+.separator .line {
+    width: 60px;
+    height: 2px;
+    background: #ffd966;
+}
+
+.separator .dot {
+    width: 10px;
+    height: 10px;
+    background: #8ab84d;
+    border-radius: 50%;
+}
+
+.products-header p {
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Products Section */
 
 .container {
@@ -7,6 +64,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    padding-top: 2rem;
 }
 
 .product-card {
