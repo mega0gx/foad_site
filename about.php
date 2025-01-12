@@ -11,7 +11,7 @@
     <?php include './sections/header.html'; ?>
 
     <main>
-        <section class="hero" style="background-image: url('./assets/images/hero1.jpg');">
+        <section class="hero" style="background-image: url('./assets/images/hero3.webp');">
             <div class="hero-content">
             <h1>Our Story</h1>
             <p>Cultivating Health, Harvesting Happiness</p>
